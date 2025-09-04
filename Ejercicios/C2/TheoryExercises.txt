@@ -1,0 +1,111 @@
+Java Data Types - Theory Review
+
+🎯 Key Theory Concepts Review
+
+1. Why Strong Typing Matters
+
+Question: Java is strongly typed, which means all operations are checked for type compatibility at compile time. What is the primary benefit of this?
+    A) It makes Java programs run faster than other languages
+    B) It allows you to mix any data types together freely
+    C) It prevents runtime errors and makes code more reliable (THIS ONE)
+    D) It reduces the amount of memory Java programs use
+    E) It makes Java code shorter to write
+
+2. Primitive Types Count
+
+Question: How many primitive data types does Java have?
+    A) 6 primitive types
+    B) 7 primitive types
+    C) 8 primitive types (THIS ONE)
+    D) 9 primitive types
+    E) 10 primitive types
+
+3. Integer Type Selection
+
+Question: You need to store a person's age (0-150). Which primitive type would be most memory-efficient?
+    A) int - because it's the most commonly used
+    B) byte - because the range -128 to 127 covers 0-150
+    C) short - because it can handle larger numbers than byte (THIS ONE)
+    D) long - because it's the most precise integer type
+    E) double - because age might have decimal places
+
+4. Long Type Usage
+
+Question: When should you use the long data type instead of int?
+    A) When you need decimal places in your number
+    B) When you need to store characters
+    C) When your number range exceeds -2,147,483,648 to 2,147,483,647 (THIS ONE)
+    D) When you want to save memory
+    E) When you need boolean operations
+
+5. Floating-Point Default Choice
+
+Question: Which floating-point type should you use as your default choice for decimal numbers in Java?
+    A) float because it uses less memory
+    B) double because it's more precise and most Math library functions use it (THIS ONE)
+    C) int because it's faster
+    D) byte because it's the smallest
+    E) Either float or double, they're exactly the same
+
+6. Character Type Properties
+
+Question: What is special about Java's char type compared to many other programming languages?
+    A) It's 8-bit and uses ASCII encoding
+    B) It can only store English letters
+    C) It's 16-bit and uses Unicode encoding (THIS ONE)
+    D) It can store multiple characters at once
+    E) It's the same as a string
+
+7. Character Arithmetic
+
+Question: What happens when you execute: char ch = 'A'; ch++;?
+    A) Compiler error - you can't increment characters
+    B) Runtime error - illegal operation
+    C) ch becomes 'B' (the next character in sequence) (THIS ONE)
+    D) ch becomes 'AA'
+    E) ch becomes 1
+
+8. Boolean Values
+
+Question: Which of the following is a valid way to use a boolean variable in an if statement?
+    A) if(b == 1) where b is boolean
+    B) if(b == "true") where b is boolean
+    C) if(b) where b is boolean (THIS ONE)
+    D) if(b != 0) where b is boolean
+    E) if(b.equals(true)) where b is boolean
+
+9. Relational Operators Result
+
+Question: What type of value does the expression 10 > 5 produce?
+    A) int with value 1
+    B) boolean with value true (THIS ONE)
+    C) String with value "true"
+    D) char with value 'T'
+    E) double with value 1.0
+
+10. Unicode Range
+
+Question: What is the range of values that a char variable can hold in Java?
+    A) -128 to 127
+    B) 0 to 255
+    C) 0 to 65,535 (THIS ONE)
+    D) -32,768 to 32,767
+    E) Any text string
+
+11. Byte Range Problem
+
+Question: What happens if you try to assign the value 200 to a byte variable?
+    A) It works fine since 200 is a small number
+    B) Compiler error - 200 is outside byte's range (THIS ONE)
+    C) It automatically converts to 200.0
+    D) It stores the value as a char instead
+    E) It rounds down to the nearest valid byte value
+
+12. Primitive vs Object Types
+
+Question: Why are Java's primitive types called "primitive" instead of being objects?
+    A) They're older than object-oriented programming
+    B) They're more important than objects
+    C) For efficiency reasons - they're stored as normal binary values (THIS ONE)
+    D) They can't be changed once created
+    E) They don't have any methods
